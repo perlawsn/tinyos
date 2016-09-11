@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device type="test-html" xmlns="http://perla.dei.org/device"
+	 xmlns:tos="http://perla.dei.org/channel/tinyos"
+	 xmlns:js="http://perla.dei.org/fpc/message/json">
+	
+
+	<attributes>
+		<attribute id="temperature" type="float" permission="read" />
+		<attribute id="pressure" type="float" permission="read" />
+	</attributes>
+
+	<messages>
+	</messages>
+	<channels>
+		<tos:channel id="tos_ch_01" mote-id="1" />
+		
+	</channels>
+	<requests>
+		<tos:request id="request" />
+	</requests>
+</device>
